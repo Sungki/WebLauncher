@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 var sizeX
 var sizeY
@@ -39,3 +39,4 @@ func _process(delta):
 			if y >= sizeY:
 				break
 		image.unlock()
+
